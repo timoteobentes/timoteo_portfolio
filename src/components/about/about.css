@@ -1,0 +1,64 @@
+#about {
+    display: flex;
+    position: absolute;
+    top: 450%;
+    left: 15%;
+    width: 80vw;
+}
+
+.texts_about h2 {
+    font-size: 70px;
+    opacity: 50%;
+}
+
+.about-line-1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.A1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(0, 174, 255);
+    border-radius: 15px;
+    padding: 20px;
+    width: 70%;
+    margin-right: 20px;
+}
+
+.hab-about {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Photo-timo {
+    display: flex;
+    border-radius: 50%;
+    padding-right: 75px;
+}
+
+@media screen and (max-width: 700px) {
+    #about {
+        display: flex;
+        position: absolute;
+        top: 410%;
+    }
+
+    .about-line-1 {
+        flex-direction: column-reverse;
+    }
+
+    .A1 {
+        margin-top: 30px;
+        background: rgb(0, 174, 255);
+        color: black;
+    }
+}

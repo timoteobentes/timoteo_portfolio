@@ -1,0 +1,97 @@
+#contact {
+    display: flex;
+    position: absolute;
+    top: 585%;
+    left: 19%;
+    width: 80vw;
+}
+
+.texts_contact h2 {
+    font-size: 70px;
+    opacity: 50%;
+}
+
+.contact-line-1 {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hab-contact {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 25px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Photo-timo2 {
+    position: absolute;
+    top: -110%;
+    left: 140%;
+    margin-bottom: 100px;
+    filter: drop-shadow(0 0 2rem rgb(20, 33, 220));
+    /* background-image: linear-gradient(45deg, rgb(153, 0, 255), rgb(43, 0, 143), rgba(0, 1, 53, 0.3), rgb(0, 0, 0)); */
+
+    /* border: 3px solid; */
+    border-radius: 50%;
+    /* border: 7px solid rgb(0, 217, 255); */
+    border-bottom: 8px solid rgb(162, 0, 255);
+    border-right: 5px solid rgb(20, 33, 220);
+    background-image: linear-gradient(45deg, rgb(162, 0, 255), rgb(20, 33, 220));
+    margin-bottom: 10px;
+}
+
+.C1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    transition: 1s ease all;
+}
+
+.C1 a:hover {
+    color: blueviolet;
+}
+
+.C1 .mail {
+    margin-right: 100px;
+}
+
+.C2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    transition: 1s ease all;
+}
+
+.C2 a:hover {
+    color: blueviolet;
+}
+
+@media screen and (max-width: 700px) {
+    #contact {
+    display: flex;
+    position: absolute;
+    top: 550%;
+    }
+
+    .hab-contact {
+        flex-direction: column;
+    }
+
+    .Photo-timo2 {
+        position: absolute;
+        top: 110%;
+        left: 10%;
+        margin-bottom: 20px;
+    }
+}

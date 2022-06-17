@@ -1,0 +1,163 @@
+#home {
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.Photo-tim {
+    margin-left: 80px;
+    filter: drop-shadow(0 0 2rem rgb(20, 33, 220));
+    /* background-image: linear-gradient(45deg, rgb(153, 0, 255), rgb(43, 0, 143), rgba(0, 1, 53, 0.3), rgb(0, 0, 0)); */
+
+    /* border: 3px solid; */
+    border-radius: 50%;
+    /* border: 7px solid rgb(0, 217, 255); */
+    border-bottom: 8px solid rgb(162, 0, 255);
+    border-right: 5px solid rgb(20, 33, 220);
+    background-image: linear-gradient(45deg, rgb(162, 0, 255), rgb(20, 33, 220));
+}
+
+/* .see-github {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 1%;
+    padding: 15px;
+    background: aqua;
+    color: black;
+    border-radius: 15px;
+} */
+
+.see-github a {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 1%;
+    padding: 15px;
+    background: aqua;
+    color: black;
+    border-radius: 15px;
+    width: 170px;
+    transition: 1s ease all;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.see-github a:hover {
+    background: black;
+    color: white;
+    border: 1px solid;
+    border-image: linear-gradient(to right, rgb(20, 33, 220), rgb(162, 0, 255));
+    border-image-slice: 3;
+    border-radius: 15px;
+}
+
+.see-cv a {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    padding: 15px;
+    background: none;
+    border: 1px solid;
+    border-image: linear-gradient(to right, rgb(20, 33, 220), rgb(162, 0, 255));
+    border-image-slice: 3;
+    color: white;
+    width: 150px;
+    transition: 1s ease all;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.see-cv a:hover {
+    background-image: linear-gradient(to right, rgb(20, 33, 220), rgb(162, 0, 255));
+    color: white;
+}
+
+.texts {
+    margin-bottom: 60px;
+    margin-right: 40px;
+}
+
+.texts h1 {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texts h4 {
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.effect {
+    animation: blinkCursor 500ms steps(13) infinite normal,
+        typing 4s steps(13) 1s normal both;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 13em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #home {
+        display: flex;
+        position: absolute;
+        top: 55%;
+        left: 30%;
+        flex-direction: column;
+    }
+
+    .texts {
+        margin-top: 300px;
+    }
+
+    .texts h1 {
+        font-size: 50px;
+    }
+
+    .see-github a {
+        display: flex;
+        position: absolute;
+        top: 95%;
+    }
+
+    .see-cv {
+        display: flex;
+        position: absolute;
+        top: 107%;
+        left: 5%;
+    }
+
+    .Photo-tim {
+        display: flex;
+        position: absolute;
+        top: -15%;
+        left: -25px;
+        margin-left: 1px;
+    }
+}

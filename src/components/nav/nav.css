@@ -1,0 +1,52 @@
+.nav {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none; /* tira as bolinhas da frente da lista */
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    float: right;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 110px;
+    transition: 1s ease all;
+    text-align: center;
+    align-items: center;
+  }
+
+  h3 a {
+    width: 150px;
+  }
+
+  ul a:hover {
+    color: white;
+    background-image: linear-gradient(to top, rgba(138, 43, 226, .5), rgb(0, 0, 0));
+    border-bottom: 1px solid blueviolet;
+  }
+
+  @media screen and (max-width: 700px) {
+    .nav {
+      margin-left: 10px;
+      flex-direction: column;
+    }
+
+    ul a {
+      margin-top: 15px;
+      flex-direction: column;
+      width: 130px;
+    }
+  }
