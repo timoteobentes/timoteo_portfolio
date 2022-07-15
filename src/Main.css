@@ -76,9 +76,10 @@ body {
   }
 } */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1462px) {
   body {
-    background-image: url('./img/Wave-min-min.jpg');
-    background-size: 200%;
+    /* background-image: url('./img/Wave-min-min1.jpg'); */
+    background: #0c002a;
+    /* background-size: 200%; */
   }
 }

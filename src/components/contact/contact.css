@@ -77,11 +77,18 @@
     color: blueviolet;
 }
 
-@media screen and (max-width: 700px) {
+.foo {
+    display: flex;
+    position: relative;
+    top: 30em;
+    left: 10em;
+}
+
+@media screen and (max-width: 1462px) {
     #contact {
     display: flex;
     position: absolute;
-    top: 550%;
+    top: 440%;
     }
 
     .hab-contact {
@@ -94,4 +101,18 @@
         left: 10%;
         margin-bottom: 20px;
     }
+
+    .foo {
+        position: relative;
+        top: 53em;
+        left: -6em;
+    }
 }
+
+/* @media screen and (max-width: 1800px) {
+    #contact {
+        display: flex;
+        position: absolute;
+        top: 510%;
+        }
+} */

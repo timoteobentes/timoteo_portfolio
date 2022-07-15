@@ -123,17 +123,28 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1462px) {
     #home {
         display: flex;
         position: absolute;
-        top: 55%;
+        top: 20%;
         left: 30%;
         flex-direction: column;
     }
 
     .texts {
-        margin-top: 300px;
+        margin-top: 200px;
+        margin-left: 0em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texts, .see-cv a, .see-github {
+        position: relative;
+        top: 15em;
     }
 
     .texts h1 {
@@ -144,20 +155,22 @@
         display: flex;
         position: absolute;
         top: 95%;
+        left: 0em;
     }
 
     .see-cv {
         display: flex;
         position: absolute;
-        top: 107%;
-        left: 5%;
+        top: 17.5em;
+        left: 0em;
     }
 
     .Photo-tim {
         display: flex;
         position: absolute;
-        top: -15%;
-        left: -25px;
+        top: -5%;
+        left: 0;
         margin-left: 1px;
+        width: 400px;
     }
 }

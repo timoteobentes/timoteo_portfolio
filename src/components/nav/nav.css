@@ -2,15 +2,18 @@
     margin-left: 150px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 50px;
+    /* background: rgb(33, 0, 63); */
   }
   
   ul {
     list-style-type: none; /* tira as bolinhas da frente da lista */
     margin: 0;
     padding: 0;
+    position: absolute;
+    right: 0;
   }
   
   li {
@@ -20,7 +23,7 @@
   
   a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     display: block;
     width: 110px;
     transition: 1s ease all;
@@ -34,19 +37,18 @@
 
   ul a:hover {
     color: white;
-    background-image: linear-gradient(to top, rgba(138, 43, 226, .5), rgb(0, 0, 0));
-    border-bottom: 1px solid blueviolet;
+    /* background-image: linear-gradient(to top, rgba(138, 43, 226, .5), rgb(0, 0, 0)); */
+    border-bottom: 1px solid #8a2be2;
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 1462px) {
     .nav {
-      margin-left: 10px;
-      flex-direction: column;
+      position: relative;
+      right: 12em;
     }
 
     ul a {
       margin-top: 15px;
-      flex-direction: column;
       width: 130px;
     }
   }

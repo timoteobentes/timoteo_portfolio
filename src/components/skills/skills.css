@@ -153,41 +153,66 @@
     margin-left: 10px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1462px) {
     #skills {
         display: flex;
         position: absolute;
-        top: 180%;
+        top: 100%;
     }
     
     .WebDev {
         border: none;
     }
 
+    .WebDev:hover {
+        background: none;
+    }
+
     .React {
         border: none;
+    }
+
+    .React:hover {
+        background: none;
     }
 
     .GG {
         border: none;
     }
 
+    .GG:hover {
+        background: none;
+    }
+
     .Js {
         border: none;
+    }
+
+    .Js:hover {
+        background: none;
     }
 
     .SQL {
         border: none;
     }
 
+    .SQL:hover {
+        background: none;
+    }
+
     .Boot {
         border: none;
+    }
+
+    .Boot:hover {
+        background: none;
     }
 
     .skill-line-1 {
         flex-direction: column;
         border: 2px solid rgb(0, 174, 255);
         border-radius: 15px;
+        transition: all 1s ease;
     }
 
     .skill-line-1:hover {
@@ -198,9 +223,18 @@
         flex-direction: column;
         border: 2px solid rgb(162, 0, 255);
         border-radius: 15px;
+        transition: all 1s ease;
     }
     
     .skill-line-2:hover {
         background: rgb(162, 0, 255);
     }
 }
+/* 
+@media screen and (max-width: 1800px) {
+    #skills {
+        display: flex;
+        position: absolute;
+        top: 152%;
+    }
+} */

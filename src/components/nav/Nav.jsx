@@ -4,7 +4,7 @@ import './nav.css';
 const Nav = () => {
     return (
         <div className="nav">
-            <h3><a href="#home">Timóteo Bentes</a></h3>
+            {/* <h3><a href="#home"></a></h3> */}
             <ul>
                 <li><a href="#contact">CONTATO</a></li>
                 <li><a href="#projects">PROJETOS</a></li>

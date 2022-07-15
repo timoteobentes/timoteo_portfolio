@@ -28,6 +28,9 @@ const Contact = () => {
                     <img src={photo2} className="Photo-timo2" alt="Foto" width={500} />
                 </div>
             </div>
+            <footer className='foo'>
+                &copy; Desenvolvido por Timóteo Bentes
+            </footer>
         </div>
     )
 }

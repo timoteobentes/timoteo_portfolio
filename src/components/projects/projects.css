@@ -146,11 +146,11 @@
     border-radius: 15px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1462px) {
     #projects {
         display: flex;
         position: absolute;
-        top: 300%;
+        top: 200%;
     }
 
     .projects-line-1 {
@@ -160,7 +160,7 @@
         justify-content: center;
         /* position: absolute;
         top: 150%; */
-        margin-top: 430px;
+        margin-top: 50em;
         margin-left: -75%;
     }
 
@@ -178,4 +178,23 @@
     .P2 {
         margin-top: 5px;
     }
+
+    .photo_3 {
+        display: flex;
+        position: absolute;
+        left: 7em;
+    }
+
+    .photo_3 a {
+        position: relative;
+        right: 6em;
+    }
 }
+
+/* @media screen and (min-width: 1800px) {
+    #projects {
+        display: flex;
+        position: absolute;
+        top: 255%;
+    }
+} */
