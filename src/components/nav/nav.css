@@ -41,14 +41,18 @@
     border-bottom: 1px solid #8a2be2;
   }
 
-  @media screen and (max-width: 1462px) {
+  @media screen and (min-width: 1462px) {
+    
+  }
+
+  @media screen and (max-width: 700px) {
     .nav {
       position: relative;
-      right: 12em;
+      right: 15em;
+      width: 200%;
     }
 
     ul a {
       margin-top: 15px;
-      width: 130px;
     }
   }

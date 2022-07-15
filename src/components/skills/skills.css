@@ -153,11 +153,15 @@
     margin-left: 10px;
 }
 
-@media screen and (max-width: 1462px) {
+@media screen and (min-width: 1462px) {
+    
+}
+
+@media screen and (max-width: 500px) {
     #skills {
         display: flex;
         position: absolute;
-        top: 100%;
+        top: 120%;
     }
     
     .WebDev {
@@ -213,6 +217,7 @@
         border: 2px solid rgb(0, 174, 255);
         border-radius: 15px;
         transition: all 1s ease;
+        margin-left: 7em;
     }
 
     .skill-line-1:hover {
@@ -224,17 +229,10 @@
         border: 2px solid rgb(162, 0, 255);
         border-radius: 15px;
         transition: all 1s ease;
+        margin-left: 7em;
     }
     
     .skill-line-2:hover {
         background: rgb(162, 0, 255);
     }
 }
-/* 
-@media screen and (max-width: 1800px) {
-    #skills {
-        display: flex;
-        position: absolute;
-        top: 152%;
-    }
-} */

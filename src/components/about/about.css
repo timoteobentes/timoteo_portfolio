@@ -45,11 +45,15 @@
     padding-right: 75px;
 }
 
-@media screen and (max-width: 1462px) {
+@media screen and (min-width: 1462px) {
+    
+}
+
+@media screen and (max-width: 700px) {
     #about {
         display: flex;
         position: absolute;
-        top: 350%;
+        top: 450%;
     }
 
     .about-line-1 {
@@ -60,17 +64,11 @@
         margin-top: 30px;
         background: rgb(0, 174, 255);
         color: black;
+        margin-left: 5em;
     }
 
     .photoA {
         margin-top: 5em;
+        margin-left: 5em;
     }
 }
-
-/* @media screen and (min-width: 1800px) {
-    #about {
-        display: flex;
-        position: absolute;
-        top: 390%;
-    }
-} */

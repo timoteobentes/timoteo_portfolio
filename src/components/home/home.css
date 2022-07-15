@@ -123,18 +123,22 @@
     }
 }
 
-@media screen and (max-width: 1462px) {
+@media screen and (min-width: 1462px) {
+    
+}
+
+@media screen and (max-width: 700px) {
     #home {
         display: flex;
         position: absolute;
         top: 20%;
-        left: 30%;
+        left: 50%;
         flex-direction: column;
     }
 
     .texts {
         margin-top: 200px;
-        margin-left: 0em;
+        margin-left: 5em;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -161,7 +165,7 @@
     .see-cv {
         display: flex;
         position: absolute;
-        top: 17.5em;
+        top: 21em;
         left: 0em;
     }
 
