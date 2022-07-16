@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
 import photo from '../../img/photo.jpeg'
+import htmlWebDev from '../../img/htmlWebDev.png'
 
 const About = () => {
     return (
@@ -23,6 +24,11 @@ const About = () => {
                     <div className="photoA">
                         <img src={photo} className="Photo-timo" alt="Foto" width={500} />
                     </div>
+                </div>
+                <div className='about-line-2'>
+                    <span className='title-certificado'>Certificados</span>
+                    <img src={htmlWebDev} className="htmlWebDev" alt="HTMLWebDev" width={200}></img>
+                    <span className='nome-curso'>HTML Web Developer</span>
                 </div>
             </div>
         </div>
